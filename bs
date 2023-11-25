@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd "${SITE_BASE_DIR:-$HOME/Dev/csstudent41.github.io}" || exit
+rm -rf public/*
+hugo

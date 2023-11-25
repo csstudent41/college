@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd "${SITE_BASE_DIR:-$HOME/Dev/csstudent41.github.io}/public" || exit
+git add --all
+git commit
+git push -u origin head
